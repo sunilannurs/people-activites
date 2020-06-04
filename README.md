@@ -1,4 +1,4 @@
-# django-rest-people-activities
+#people-activities
 
 1. create virtual_environment
     sudo apt-get install python3-venv
