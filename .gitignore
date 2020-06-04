@@ -8,4 +8,4 @@ virt_env/
 log/
 media/
 venv/
-/virt_env
+.virt_env/
