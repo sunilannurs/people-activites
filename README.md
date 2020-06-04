@@ -1,16 +1,42 @@
-#people-activities
+#create the virtual environment#
+step1:
 
-1. create virtual_environment
-    sudo apt-get install python3-venv
-    python3 -m venv virt_env && source virt_env/bin/activate
+sudo apt-get install python3-venv
 
-2. python3 -m pip install -r requirements.txt
+#activate the virtual-env#
+step2:
 
-3. python3 manage.py makemigrations
+python3 -m venv virt_env && source virt_env/bin/activate
 
-4. python3 manage.py migrate
+#install the requirement"
+
+step 3:
+
+python3 -m pip install -r requirements.txt
+
+
+
+step 4:
+
+python3 manage.py makemigrations
+
+step 5:
+
+python3 manage.py migrate
+
 
 #for adding some dummy data#
-5. used to populate the data management command "python manage.py add_user_activities"
 
-6. python3 manage.py runserver
+step 6:
+
+python manage.py add_user_activities #for add the dummy data"
+
+step 7:
+
+python3 manage.py runserver
+
+step 8:
+
+localhost:8000/api/users
+
+#run the url in get method.
